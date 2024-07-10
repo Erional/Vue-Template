@@ -1,0 +1,24 @@
+{
+  "title":"タイトル",
+  "howToGetAppCode": "AppCode を取得するには ？",
+  "inputAppCode": "AppCode を入力してください",
+  "recognition": "開始",
+  "form": {
+    "selectDataTable": "データテーブルを選択",
+    "SelectAttachmentField": "添付項目の選択",
+    "SelectInvoiceHeaderField": "請求書タイトルフィールドを選択",
+    "SelectTaxpayerIdField": "納税者識別番号フィールドを選択します",
+    "SelectInvoiceDateField": "請求書日付フィールドを選択",
+    "SelectSellerNameField": "販売者名フィールドを選択",
+    "SelectInvoiceValueField": "請求書金額の選択フィールド"
+  },
+  "select": {
+    "selectDataTable": "データテーブルを選択してください",
+    "SelectAttachmentField": "添付項目を選択してください",
+    "SelectInvoiceHeaderField": "請求書タイトルフィールドを選択してください",
+    "SelectTaxpayerIdField": "納税者識別番号フィールドを選択しますしてください",
+    "SelectInvoiceDateField": "請求書日付フィールドを選択してください",
+    "SelectSellerNameField": "販売者名フィールドを選択してください",
+    "SelectInvoiceValueField": "請求書金額の選択フィールドしてください"
+  }
+}

@@ -1,3 +1,24 @@
 {
-  "title":"title"
+  "title":"title",
+  "howToGetAppCode": "How to get AppCode?",
+  "inputAppCode": "Please input AppCode",
+  "recognition": "Start",
+  "form": {
+    "selectDataTable": "Select DataTable",
+    "SelectAttachmentField": "Select Attachment Field",
+    "SelectInvoiceHeaderField": "Select Invoice Title Field",
+    "SelectTaxpayerIdField": "Select Taxpayer Identification number field",
+    "SelectInvoiceDateField": "Select Invoice Date Field",
+    "SelectSellerNameField": "Select seller name field",
+    "SelectInvoiceValueField": "Select invoice value field"
+  },
+  "select": {
+    "selectDataTable": "Please select DataTable",
+    "SelectAttachmentField": "Please select Attachment Field",
+    "SelectInvoiceHeaderField": "Please select Invoice Header Field",
+    "SelectTaxpayerIdField": "Please select Taxpayer Identification number field",
+    "SelectInvoiceDateField": "Please select Invoice Date Field",
+    "SelectSellerNameField": "Please select seller name field",
+    "SelectInvoiceValueField": "Please select invoice value field"
+  }
 }
