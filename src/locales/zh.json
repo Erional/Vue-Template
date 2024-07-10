@@ -1,3 +1,24 @@
 {
-  "title":"标题"
+  "title":"title",
+  "howToGetAppCode": "如何获取AppCode?",
+  "inputAppCode": "请输入AppCode",
+  "recognition": "开始识别",
+  "form": {
+    "selectDataTable": "选择数据表",
+    "SelectAttachmentField": "选择发票附件字段",
+    "SelectInvoiceHeaderField": "选择发票抬头字段",
+    "SelectTaxpayerIdField": "选择纳税人识别号字段",
+    "SelectInvoiceDateField": "选择开票日期字段",
+    "SelectSellerNameField": "选择销售方名称字段",
+    "SelectInvoiceValueField": "选择发票金额字段"
+  },
+  "select": {
+    "selectDataTable": "请选择数据表",
+    "SelectAttachmentField": "请选择发票附件字段",
+    "SelectInvoiceHeaderField": "请选择发票抬头字段",
+    "SelectTaxpayerIdField": "请选择纳税人识别号字段",
+    "SelectInvoiceDateField": "请选择开票日期字段",
+    "SelectSellerNameField": "请选择销售方名称字段",
+    "SelectInvoiceValueField": "请选择发票金额字段"
+  }
 }
