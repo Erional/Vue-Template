@@ -37,19 +37,12 @@ export default {
       // 定义API的基础URL和路径
       const host = "https://dgfp.market.alicloudapi.com";
       const path = "/ocrservice/invoice";
-      // 定义请求头，包括Authorization和Content-Type
-      const headers = {
-        'Authorization': 'APPCODE '+appCode.value,
-        'Content-Type': 'application/json; charset=UTF-8'
-      }
 
 
       //获取当前表格所有字段信息
       const handleTableChange =async () =>{
         const activeTable=await bitable.base.getTable(formTableData.value.tableId);
         fieldMetaList.value=await activeTable.getFieldMetaList();
-        // const recordList=await activeTable.getRecords({
-        // });
       }
 
 
@@ -96,6 +89,11 @@ export default {
           // 请求体
           const bodyData = JSON.stringify({ "url": attachmentUrls , "page_no": 1});
           // 使用axios发送POST请求
+          // 定义请求头，包括Authorization和Content-Type
+          const headers = {
+            'Authorization': 'APPCODE '+appCode.value,
+            'Content-Type': 'application/json; charset=UTF-8'
+          }
           const response = await axios.post(`${host}${path}`, bodyData, { headers });
           // 更新响应数据和状态
           return  response.data.data;
@@ -116,28 +114,7 @@ export default {
         ]);
         formTableData.value.tableId = selection.tableId;
         tableMetaList.value = tableList;
-        // console.log(tableMetaList);
-
-
-        // const [tableList, selection,fieldList] = await Promise.all([bitable.base.getTableMetaList(), bitable.base.getSelection()]);
-        // formData.value.table = selection.tableId;
-        // tableMetaList.value = tableList;
-        // fieldList;
       });
-
-      //将name转换成ID
-      const getFieldIdByName = async (tableId, fieldName) => {
-        // console.log("fieldName:"+fieldName)
-        const table = await bitable.base.getTable(tableId);
-        const fieldList = await table.getFieldMetaList();
-        for (const field of fieldList) {
-          // console.log(field.name);
-          if (field.name === fieldName) {
-            return field.id;
-          }
-        }
-        return null;
-      };
 
       return {
         appCode,
