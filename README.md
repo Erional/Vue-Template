@@ -15,7 +15,7 @@
 5. 按要求选择相应的列
 7. 点击“开始识别”按钮自动识别发票信息并填充到多维表格中
 
-![飞书多维表格发票识别插件.gif](public%2Fimages%2F%B7%C9%CA%E9%B6%E0%CE%AC%B1%ED%B8%F1%B7%A2%C6%B1%CA%B6%B1%F0%B2%E5%BC%FE.gif)
+![飞书多维表格发票识别插件](https://github.com/Erional/feishu_Invoice_Identification_plug-in/blob/main/public/images/%E9%A3%9E%E4%B9%A6%E5%A4%9A%E7%BB%B4%E8%A1%A8%E6%A0%BC%E5%8F%91%E7%A5%A8%E8%AF%86%E5%88%AB%E6%8F%92%E4%BB%B6.gif)
 
 ## 4. 注意事项
 - 请确保发票图片清晰可见
