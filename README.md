@@ -1,11 +1,25 @@
-# Getting Started
-- Hit run
-- Edit [App.vue](#src/App.vue) and watch it live update!
+# 飞书多维表格发票识别插件
+## 1. 介绍
+飞书多维表格发票识别插件是一个基于飞书多维表格的插件，用于识别飞书多维表格中的发票信息。用户可以通过飞书多维表格插件上传发票图片，插件会自动识别发票信息并填充到多维表格中。
 
-# Learn More
+## 2. 功能
+- 支持识别多种格式的发票信息(jpg/png/bmp/PDF)
+- 自动填充多维表格
+- 支持多种发票类型
 
-You can learn more in the [Base Extension Development Guide](https://lark-technologies.larksuite.com/docx/HvCbdSzXNowzMmxWgXsuB2Ngs7d) or [多维表格扩展脚本开发指南](https://feishu.feishu.cn/docx/U3wodO5eqome3uxFAC3cl0qanIe).
+## 3. 使用方法
+1. 首先，需要获取阿里云Appcode
+2. 在飞书中打开多维表格
+3. 点击多维表格右上角的“插件”按钮
+4. 在插件列表中找到“发票解析”
+5. 按要求选择相应的列
+7. 点击“开始识别”按钮自动识别发票信息并填充到多维表格中
 
-## Install packages
+![飞书多维表格发票识别插件.gif](public%2Fimages%2F%B7%C9%CA%E9%B6%E0%CE%AC%B1%ED%B8%F1%B7%A2%C6%B1%CA%B6%B1%F0%B2%E5%BC%FE.gif)
 
-Install packages in Shell pane or search and add in Packages pane.
+## 4. 注意事项
+- 请确保发票图片清晰可见
+- 请确保发票图片中的发票信息完整
+
+## 5. 联系我
+- 有任何问题或建议，请提交issues或联系我：[1842502067@qq.com]
